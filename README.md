@@ -1,22 +1,19 @@
-# Project Title
+# SalesInsight: Advanced Sales and Production Analysis
 
-## Overview
-This project is designed to accomplish [explain main purpose here].
+## 📊 Overview
+**SalesInsight** is a comprehensive data analysis project focused on understanding and predicting sales and production patterns across different channels. This project includes detailed data cleaning, statistical analysis, feature engineering, and machine learning modeling. By utilizing the Gradient Boosting Classifier, we analyze sales behaviors across channels (Online, Retail) to identify potential disruptions and optimize sales strategies.
 
-## Features
-- Feature 1
-- Feature 2
-- Feature 3
+## 🔍 Key Features
+- **Data Cleaning & Preparation**: Preprocesses data to handle missing values and ensure accurate feature calculations.
+- **Feature Engineering**: Calculates key ratios like `Sales/Production Ratio`, tracks monthly `Sales Change`, and identifies potential `Channel Disruptions`.
+- **Statistical Analysis**: Performs T-test analysis to compare sales across channels.
+- **Predictive Modeling**: Uses Gradient Boosting to predict disruptions in sales channels, balancing classes with SMOTE.
+- **Visual Insights**: Provides insights through visualizations, including feature importance, sales ratios, and correlation heatmaps.
 
-## Installation
-To install the required packages, run:
+## 🛠️ Installation
+To get started, clone the repository and install the necessary dependencies:
+
 ```bash
+git clone https://github.com/your_username/SalesInsight.git
+cd SalesInsight
 pip install -r requirements.txt
-```
-
-## Usage
-[Instructions for running the project]
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
